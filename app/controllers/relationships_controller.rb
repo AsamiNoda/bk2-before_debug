@@ -25,6 +25,6 @@ before_action :set_user, only:[:create, :destroy]
 
   private
   def set_user
-    @user = User.find(params[:user_id])
+    @user = User.find(params[:follow_id])
   end
 end
